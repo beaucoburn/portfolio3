@@ -16,10 +16,14 @@ export default function NavBar() {
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
-            <NavigationMenuTrigger>Item One</NavigationMenuTrigger>
-            <NavigationMenuContent>
-              <NavigationMenuLink>Link</NavigationMenuLink>
-            </NavigationMenuContent>
+            <NavigationMenuLink href="/">
+              Home
+            </NavigationMenuLink>
+          </NavigationMenuItem>
+          <NavigationMenuItem>
+            <NavigationMenuLink href="/about">
+              <NavigationMenuTrigger>About</NavigationMenuTrigger>
+            </NavigationMenuLink>
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
