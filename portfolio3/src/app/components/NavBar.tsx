@@ -1,16 +1,10 @@
 "use client";
 
-import Image from "next/image";
-import Link from "next/link";
 import {
   NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuIndicator,
-  NavigationMenuItem,
+   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faHome } from "@fortawesome/free-solid-svg-icons";
@@ -21,14 +15,6 @@ import {
   faDev,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-//import { Box, HStack } from "@chakra-ui/react";
-
-//interface Social {
-//  icon: any;
-//  url: string;
-//  alt: string;
-//  key: string;
-//}
 
 const socials = [
   {
