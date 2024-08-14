@@ -68,7 +68,7 @@ export default function NavBar() {
         <FontAwesomeIcon
           icon={socials.icon}
           size="2xl"
-          style={{ padding: "0.25em" }}
+          style={{ padding: "0.75em", color: "white" }}
         />
       </a>
     );
@@ -92,6 +92,7 @@ export default function NavBar() {
               href="/#about-section"
               alt="About"
               onClick={handleClick}
+              style={{ padding: "0.75em", color: "white" }}
             >
               About
             </NavigationMenuLink>
@@ -101,6 +102,7 @@ export default function NavBar() {
               href="/#contactme-section"
               alt="Contact Me"
               onClick={handleClick}
+              style={{ padding: "0.75em", color: "white" }}
             >
               Contact Me
             </NavigationMenuLink>
