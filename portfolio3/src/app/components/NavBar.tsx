@@ -2,7 +2,7 @@
 
 import {
   NavigationMenu,
-   NavigationMenuItem,
+  NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
 } from "@/components/ui/navigation-menu";
