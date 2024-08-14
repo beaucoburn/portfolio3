@@ -83,8 +83,8 @@ export default function NavBar() {
   };
 
   return (
-    <>
-      <NavigationMenu>
+    <div  className="bg-black position-sticky top-0 w-100">
+      <NavigationMenu className="">
         <NavigationMenuList>
           <NavigationMenuItem>{socialList}</NavigationMenuItem>
           <NavigationMenuItem>
@@ -109,6 +109,6 @@ export default function NavBar() {
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
-    </>
+    </div>
   );
 }
