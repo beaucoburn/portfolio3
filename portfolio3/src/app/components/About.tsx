@@ -1,5 +1,11 @@
 import FullScreenSection from "./FullScreenSection";
 import { Heading, VStack, HStack, Text } from "@chakra-ui/react";
+import ReactIcon from "../../icons/ReactIcon";
+import NextIcon from "../../icons/NextIcon";
+import HtmlIcon from "../../icons/HtmlIcon";
+import CssIcon from "../../icons/CssIcon";
+import PostgresIcon from "../../icons/PostgresIcon";
+import TailwindIcon from "../../icons/TailwindIcon";
 
 
 export default function About(){
@@ -13,6 +19,9 @@ export default function About(){
     >
     <HStack p={12}>
       <VStack p={12} position="relative">
+        <ReactIcon />
+        <HtmlIcon />
+        <PostgresIcon />
       </VStack>
       <VStack p={12} position="relative">
         <Heading py={8}>About Me</Heading>
@@ -21,6 +30,9 @@ export default function About(){
         </Text>
       </VStack>
       <VStack p={12} position="relative">
+        <NextIcon />
+        <CssIcon />
+        <TailwindIcon />
       </VStack>
     </HStack>
     </FullScreenSection>
