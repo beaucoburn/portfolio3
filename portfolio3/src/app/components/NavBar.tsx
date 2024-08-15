@@ -100,7 +100,7 @@ export default function NavBar() {
           <NavigationMenuItem>
             <NavigationMenuLink
               href="/#contactme-section"
-              alt="Contact Me"
+              alt="Contact Me" 
               onClick={handleClick}
               style={{ padding: "0.75em", color: "white" }}
             >
