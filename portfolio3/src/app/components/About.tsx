@@ -6,6 +6,7 @@ import HtmlIcon from "../../icons/HtmlIcon";
 import CssIcon from "../../icons/CssIcon";
 import PostgresIcon from "../../icons/PostgresIcon";
 import TailwindIcon from "../../icons/TailwindIcon";
+import CSS from "../../icons/CssIcon";
 
 
 export default function About(){
@@ -31,7 +32,8 @@ export default function About(){
       </VStack>
       <VStack p={12} position="relative">
         <NextIcon />
-        <CssIcon />
+       
+        <CSS />
         <TailwindIcon />
       </VStack>
     </HStack>
