@@ -64,7 +64,7 @@ const socials = [
 export default function NavBar() {
   const socialList = socials.map((socials) => {
     return (
-      <a href={socials.url} key={socials.key} alt={socials.alt}>
+      <a href={socials.url} key={socials.key} alt={socials.alt} target="_blank">
         <FontAwesomeIcon
           icon={socials.icon}
           size="2xl"
