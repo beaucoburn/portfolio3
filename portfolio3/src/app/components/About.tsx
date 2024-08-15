@@ -3,7 +3,6 @@ import { Heading, VStack, HStack, Text } from "@chakra-ui/react";
 import ReactIcon from "../../icons/ReactIcon";
 import NextIcon from "../../icons/NextIcon";
 import HtmlIcon from "../../icons/HtmlIcon";
-import CssIcon from "../../icons/CssIcon";
 import PostgreSQL from "../../icons/PostgresIcon";
 import TailwindCSS from "../../icons/TailwindIcon";
 import CSS from "../../icons/CssIcon";
