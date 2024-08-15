@@ -4,8 +4,8 @@ import ReactIcon from "../../icons/ReactIcon";
 import NextIcon from "../../icons/NextIcon";
 import HtmlIcon from "../../icons/HtmlIcon";
 import CssIcon from "../../icons/CssIcon";
-import PostgresIcon from "../../icons/PostgresIcon";
-import TailwindIcon from "../../icons/TailwindIcon";
+import PostgreSQL from "../../icons/PostgresIcon";
+import TailwindCSS from "../../icons/TailwindIcon";
 import CSS from "../../icons/CssIcon";
 
 
@@ -22,7 +22,7 @@ export default function About(){
       <VStack p={12} position="relative">
         <ReactIcon />
         <HtmlIcon />
-        <PostgresIcon />
+        <PostgreSQL />
       </VStack>
       <VStack p={12} position="relative">
         <Heading py={8}>About Me</Heading>
@@ -34,7 +34,7 @@ export default function About(){
         <NextIcon />
        
         <CSS />
-        <TailwindIcon />
+        <TailwindCSS />
       </VStack>
     </HStack>
     </FullScreenSection>

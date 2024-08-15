@@ -25,28 +25,29 @@ export default function Hero() {
       fill
       sizes="100vw"
       objectFit= "cover"
+     
       style={{opacity: 0.5}}
       />
       <CardContainer className="inter-var">
         <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
           <CardItem
             translateZ="100"
-            rotateX={20}
-            rotateZ={-10}
+            rotateX={0}
+            rotateZ={0}
             className="w-full mt-4"
             border="1px solid #000000"
           >
             <Image
               src={Headshot}
-              height="3000"
-              width="1000"
+              height="2000"
+              width="700"
               className="h-100 w-full object-cover rounded-xl group-hover/card:shadow-xl"
               alt="thumbnail"
             />
           </CardItem>
           <CardItem
             translateZ="50"
-            translateX={40}
+            translateX={0}
             className="text-xl font-bold text-neutral-600 dark:text-white"
           >
             <CardItem
@@ -59,7 +60,7 @@ export default function Hero() {
 
           <CardItem
             translateZ="60"
-            translateX={-60}
+            translateX={0}
             className="text-xl font-bold text-neutral-600 dark:text-white"
           >
             <CardItem
@@ -72,7 +73,7 @@ export default function Hero() {
 
           <CardItem
             translateZ="70"
-            translateX={60}
+            translateX={0}
             className="text-xl font-bold text-neutral-600 dark:text-white"
           >
             <CardItem
