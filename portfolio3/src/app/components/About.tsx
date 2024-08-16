@@ -39,3 +39,4 @@ export default function About(){
     </FullScreenSection>
   )
 }
+// For more icons go to svgl.app

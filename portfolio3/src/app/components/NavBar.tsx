@@ -83,7 +83,7 @@ export default function NavBar() {
   };
 
   return (
-    <div  className="bg-black position-sticky top-0 w-100">
+    <div  className="bg-black position-fixed top-0 w-100 z-50">
       <NavigationMenu className="">
         <NavigationMenuList>
           <NavigationMenuItem>{socialList}</NavigationMenuItem>
