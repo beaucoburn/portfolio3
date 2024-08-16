@@ -1,13 +1,4 @@
-import React from 'react'
-
-export default function HtmlIcon() {
-  return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-      <path fill="#E34F26" d="M71,460 L30,0 481,0 440,460 255,512"/>
-      <path fill="#EF652A" d="M256,472 L405,431 440,37 256,37"/>
-      <path fill="#EBEBEB" d="M256,208 L181,208 176,150 256,150 256,94 255,94 114,94 115,109 129,265 256,265zM256,355 L255,355 192,338 188,293 158,293 132,293 139,382 255,414 256,414z"/>
-      <path fill="#FFF" d="M255,208 L255,265 325,265 318,338 255,355 255,414 371,382 372,372 385,223 387,208 371,208zM255,94 L255,129 255,150 255,150 392,150 392,150 392,150 393,138 396,109 397,94z"/>
-      <script xmlns="" id="bw-fido2-page-script"/>
-    </svg>
-  )
-}
+import * as React from "react";
+import type { SVGProps } from "react";
+const HTML5 = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 452 520" width="5em" height="5em" {...props}><path fill="#e34f26" d="M41 460L0 0h451l-41 460-185 52" /><path fill="#ef652a" d="M226 472l149-41 35-394H226" /><path fill="#ecedee" d="M226 208h-75l-5-58h80V94H84l15 171h127zm0 147l-64-17-4-45h-56l7 89 117 32z" /><path fill="#fff" d="M226 265h69l-7 73-62 17v59l115-32 16-174H226zm0-171v56h136l5-56z" /></svg>;
+export default HTML5;
