@@ -6,7 +6,13 @@ import HtmlIcon from "../../icons/HtmlIcon";
 import PostgreSQL from "../../icons/PostgresIcon";
 import TailwindCSS from "../../icons/TailwindIcon";
 import CSS from "../../icons/CssIcon";
-
+import Figma from "../../icons/FigmaIcon";
+import Django from "../../icons/DjangoIcon";
+import Strapi from "../../icons/StrapiIcon";
+import Shopify from "../../icons/ShopifyIcon";
+import Prisma from "../../icons/PrismaIcon";
+import MySQL from "../../icons/MySQLIcon";
+import Python from "../../icons/PythonIcon";
 
 export default function About(){
   return (
