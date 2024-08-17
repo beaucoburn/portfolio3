@@ -28,8 +28,8 @@ export default function About(){
       <VStack p={12} position="relative">
         <ReactIcon />
         <HtmlIcon />
-        <PostgreSQL />
         <TypeScriptIcon />
+        <PostgreSQL />
         <Strapi />
         <Shopify />
         <Python />
