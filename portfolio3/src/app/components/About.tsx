@@ -5,7 +5,7 @@ import NextIcon from "../../icons/NextIcon";
 import HtmlIcon from "../../icons/HtmlIcon";
 import PostgreSQL from "../../icons/PostgresIcon";
 import TailwindCSS from "../../icons/TailwindIcon";
-import CSS from "../../icons/CssIcon";
+import CSSIcon from "../../icons/CssIcon";
 import Figma from "../../icons/FigmaIcon";
 import Django from "../../icons/DjangoIcon";
 import Strapi from "../../icons/StrapiIcon";
@@ -13,6 +13,7 @@ import Shopify from "../../icons/ShopifyIcon";
 import Prisma from "../../icons/PrismaIcon";
 import MySQL from "../../icons/MySQLIcon";
 import Python from "../../icons/PythonIcon";
+import TypeScriptIcon from "../../icons/TypescriptIcon";
 
 export default function About(){
   return (
@@ -28,6 +29,10 @@ export default function About(){
         <ReactIcon />
         <HtmlIcon />
         <PostgreSQL />
+        <TypeScriptIcon />
+        <Strapi />
+        <Shopify />
+        <Python />
       </VStack>
       <VStack p={12} position="relative">
         <Heading py={8}>About Me</Heading>
@@ -37,9 +42,12 @@ export default function About(){
       </VStack>
       <VStack p={12} position="relative">
         <NextIcon />
-       
-        <CSS />
+        <CSSIcon />
         <TailwindCSS />
+        <Figma />
+        <Prisma />
+        <Django />
+        <MySQL />
       </VStack>
     </HStack>
     </FullScreenSection>
