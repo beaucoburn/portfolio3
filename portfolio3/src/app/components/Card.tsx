@@ -9,17 +9,19 @@ const Card = ({ title, description, imageSrc, url }) => {
       <Box 
         backgroundColor="white"
         maxW="sm"  
-        borderRadius="lg"
+        borderRadius="10"
       >
         <a 
-          href={url} 
+          href={url}
           target="_blank" 
           rel="noopener noreferrer"
         >
         <Image 
           src={imageSrc} 
-          alt={title}
-          borderRadius="lg" 
+          alt="title"
+          borderradius="10"
+          width="100"
+          height="50"
         />
         <VStack
           alignItems="baseline"
