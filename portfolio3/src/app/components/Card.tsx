@@ -1,3 +1,5 @@
+"use client";
+
 import { Heading, HStack, Text, VStack, Box } from "@chakra-ui/react";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
