@@ -18,7 +18,7 @@ import TypeScriptIcon from "../../icons/TypescriptIcon";
 export default function About(){
   return (
     <FullScreenSection
-      backgroundColor="#ccc8cd"
+      backgroundColor="#a3a3a3"
       py={16}
       spacing={8}
       isDarkBackground={false}
