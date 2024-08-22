@@ -15,7 +15,7 @@ export default function Hero() {
   return (
     <FullScreenSection
       isDarkBackground
-      backgroundColor="#303036"
+      backgroundColor="#262626"
     >
     <Image
       src={Background}
