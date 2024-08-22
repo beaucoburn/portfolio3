@@ -18,18 +18,19 @@ const Card = ({ title, description, imageSrc, url }) => {
           target="_blank" 
           rel="noopener noreferrer"
         >
+        <div style={{ borderRadius: "10px", overflow: "hidden" }}>
         <Image 
           src={imageSrc} 
           alt="title"
-          borderradius="10"
-          width="100"
-          height="50"
+          width="300"
+          height="150"
         />
+        </div>
         <VStack
           alignItems="baseline"
           padding="2.5"
         >
-          <Heading 
+          <Heading
             color="black" 
             justify="right"
             fontSize="sm"
